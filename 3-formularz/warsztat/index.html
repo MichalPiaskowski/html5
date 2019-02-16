@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/mich.piaskowski@gmail.com" method="POST">
+        <input type="text" name="username" id="username" placeholder="Imię i nazwisko" required>
+        <br>
+        <input type="mail" name="usermail" id="usermail" placeholder="adres email" required>
+        <br>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="Nr tel. format: 000-000-000" required>
+        <br>
+        <select name="wojewodztwo" id="wojewodztwo">
+                <option value="value1">woj. dolnośląskie</option>
+                <option value="value2" selected>woj. kujawsko-pomorskie</option>
+                <option value="value3">woj. lubelskie</option>
+                <option value="value4">woj. lubuskie</option>
+                <option value="value5">woj. łódzkie</option>
+                <option value="value6">woj. małopolskie</option>
+                <option value="value7" selected>woj. mazowieckie</option>
+                <option value="value8">woj. opolskie</option>
+                <option value="value9">woj. podkarpackie</option>
+                <option value="value10">woj. podlaskie</option>
+                <option value="value11">woj. pomorskie</option>
+                <option value="value11">woj. śląskie</option>
+                <option value="value12">woj. świętokrzyskie</option>
+                <option value="value13">woj. warmińsko-mazurskie</option>
+                <option value="value14">woj. wielkopolskie</option>
+                <option value="value15">woj. zachodniopomorskie</option>
+            
+        </select>
+        <br>
+        <textarea maxlength="1000" rows="10" cols="21" name="message" id="message" placeholder="Twoja wiadomość"></textarea>
+        <br>
+        <input type="submit">
+
+    </form>
+</body>
+
+</html>
